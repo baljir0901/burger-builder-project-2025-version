@@ -222,7 +222,7 @@ This project demonstrates:
 
 ## 🚀 **Live Demo**
 
-Open [http://localhost:3000](http://localhost:3000) to view the app in development mode.
+Open [http://localhost:3000] and (https://burger-builder-project-2025-v.netlify.app/) to view the app in development mode.
 
 The page will reload when you make changes, and you'll see beautiful fast food magic happen! ✨
 
