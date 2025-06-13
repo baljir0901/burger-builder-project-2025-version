@@ -1,0 +1,175 @@
+.Burger {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  height: 280px;
+  overflow: hidden;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  position: relative;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+  border: 3px solid rgba(255,255,255,0.8);
+  backdrop-filter: blur(10px);
+}
+
+.BreadTop {
+  height: 20%;
+  width: 80%;
+  background: linear-gradient(135deg, #d4691e, #ff8c42, #e27b36);
+  border-radius: 50% 50% 0 0;
+  margin: 2% auto;
+  position: relative;
+  box-shadow: 0 5px 15px rgba(212, 105, 30, 0.3);
+  transform: perspective(100px) rotateX(5deg);
+}
+
+.Seeds1,
+.Seeds2 {
+  width: 12%;
+  height: 18%;
+  background: radial-gradient(circle, #ffffff, #f8f8f8);
+  position: absolute;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.Seeds1 {
+  left: 28%;
+  top: 45%;
+  transform: rotate(-20deg);
+  animation: float 3s ease-in-out infinite;
+}
+
+.Seeds2 {
+  left: 52%;
+  top: 45%;
+  transform: rotate(10deg);
+  animation: float 3s ease-in-out infinite 1.5s;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(-20deg); }
+  50% { transform: translateY(-3px) rotate(-15deg); }
+}
+
+.BreadBottom {
+  height: 15%;
+  width: 80%;
+  background: linear-gradient(135deg, #d4691e, #ff8c42, #e27b36);
+  border-radius: 0 0 30px 30px;
+  margin: 2% auto;
+  box-shadow: 0 5px 15px rgba(212, 105, 30, 0.3);
+  transform: perspective(100px) rotateX(-3deg);
+}
+
+.salad {
+  width: 85%;
+  height: 8%;
+  margin: 2% auto;
+  background: linear-gradient(135deg, #228c1d, #4caf50, #91ce50);
+  border-radius: 25px;
+  position: relative;
+  box-shadow: 0 3px 10px rgba(34, 140, 29, 0.3);
+  animation: slideIn 0.5s ease-out;
+}
+
+.salad::before {
+  content: '';
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 80%;
+  height: 60%;
+  background: linear-gradient(135deg, rgba(255,255,255,0.3), transparent);
+  border-radius: 20px;
+}
+
+.bacon {
+  width: 80%;
+  height: 4%;
+  margin: 2% auto;
+  background: linear-gradient(135deg, #bf3813, #ff5722, #c45e38);
+  border-radius: 0;
+  position: relative;
+  box-shadow: 0 3px 8px rgba(191, 56, 19, 0.3);
+  animation: slideIn 0.5s ease-out;
+}
+
+.cheese {
+  width: 90%;
+  height: 5%;
+  margin: 2% auto;
+  background: linear-gradient(135deg, #f4d004, #ffeb3b, #d6bb22);
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0 3px 10px rgba(244, 208, 4, 0.3);
+  animation: slideIn 0.5s ease-out;
+}
+
+.cheese::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(255,255,255,0.4), transparent 70%);
+  border-radius: 20px;
+}
+
+.meat {
+  width: 80%;
+  height: 10%;
+  margin: 2% auto;
+  background: linear-gradient(135deg, #7f3608, #8d4004, #702e05);
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(127, 54, 8, 0.4);
+  animation: slideIn 0.5s ease-out;
+}
+
+.meat::before {
+  content: '';
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  width: 70%;
+  height: 30%;
+  background: linear-gradient(135deg, rgba(255,255,255,0.1), transparent);
+  border-radius: 10px;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Add some sparkle effects */
+.Burger::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(45deg, #667eea, #764ba2, #667eea);
+  border-radius: 22px;
+  z-index: -1;
+  animation: sparkle 2s linear infinite;
+  opacity: 0.7;
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 0.7; }
+  50% { opacity: 1; }
+}

@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Burger ",
+  "name": "Бургерээ бүтээгээд  - захиал",
+  "description": "Өөрийн дуртай бургерээ бүтээж, шуурхай хүргэлт захиалаарай!",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +21,8 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#D32F2F",
+  "background_color": "#FF6B35",
+  "categories": ["food", "shopping"],
+  "lang": "mn"
 }

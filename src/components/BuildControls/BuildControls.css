@@ -1,0 +1,133 @@
+.BuildControls {
+  width: 100%;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.BuildControl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0;
+  padding: 15px 20px;
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  border-radius: 15px;
+  width: 100%;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.BuildControl:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.BuildControl:nth-child(1) {
+  background: linear-gradient(135deg, #4CAF50 0%, #8BC34A 100%);
+}
+
+.BuildControl:nth-child(2) {
+  background: linear-gradient(135deg, #FF9800 0%, #FF5722 100%);
+}
+
+.BuildControl:nth-child(3) {
+  background: linear-gradient(135deg, #FFEB3B 0%, #FFC107 100%);
+}
+
+.BuildControl:nth-child(4) {
+  background: linear-gradient(135deg, #8D4004 0%, #D32F2F 100%);
+}
+
+.Label {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #333;
+  width: 80px;
+  text-align: left;
+  text-shadow: 0 1px 2px rgba(255,255,255,0.8);
+}
+
+.BuildControl button {
+  padding: 8px 16px;
+  margin: 0 8px;
+  width: 70px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.BuildControl .Less {
+  background: linear-gradient(135deg, #D32F2F 0%, #B71C1C 100%);
+  color: white;
+  box-shadow: 0 3px 10px rgba(211, 47, 47, 0.3);
+}
+
+.BuildControl .Less:hover:not(:disabled) {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(211, 47, 47, 0.4);
+}
+
+.BuildControl .Less:active {
+  transform: scale(0.95);
+}
+
+.BuildControl .More {
+  background: linear-gradient(135deg, #FF6B35 0%, #F7931E 100%);
+  color: white;
+  box-shadow: 0 3px 10px rgba(255, 107, 53, 0.3);
+}
+
+.BuildControl .More:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(255, 107, 53, 0.4);
+}
+
+.BuildControl .More:active {
+  transform: scale(0.95);
+}
+
+.BuildControl button:disabled {
+  background: linear-gradient(135deg, #bdc3c7 0%, #95a5a6 100%);
+  color: #7f8c8d;
+  cursor: not-allowed;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.BuildControl button:disabled:hover {
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.BuildControl .More:hover,
+.BuildControl .More:active {
+  background-color: #996d3b;
+  color: white;
+}
+
+/* Шинэ OrderButton стил */
+.OrderButton {
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.OrderButton:hover {
+  background-color: #4cae4c;
+}
