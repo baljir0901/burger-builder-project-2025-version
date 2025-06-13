@@ -92,7 +92,7 @@ This Burger Builder project has been completely modernized for 2025 with the lat
 
 ```bash
 # Clone the repository
-git clone [your-repo-url]
+git clone https://github.com/baljir0901/burger-builder-project-2025-version.git
 
 # Navigate to project directory
 cd burger-builder
