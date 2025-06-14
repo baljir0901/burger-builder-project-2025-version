@@ -12,16 +12,16 @@
 
 Here are some actual screenshots of the Burger Builder 2025 in action:
 
-![Burger Builder UI](./Screenshot_2025-06-14_171508.png)
+![Burger Builder UI](Screenshot_2025-06-14_171508.png)
 *Burger building screen with glassmorphism design.*
 
-![Build Controls](./Screenshot_2025-06-14_171523.png)
+![Build Controls](Screenshot_2025-06-14_171523.png)
 *Ingredient control panel for customizing your burger.*
 
-![Checkout Page](./Screenshot_2025-06-14_171618.png)
+![Checkout Page](Screenshot_2025-06-14_171618.png)
 *Modern checkout flow with price summary.*
 
-![Order Confirmation](./Screenshot_2025-06-14_171656.png)
+![Order Confirmation](Screenshot_2025-06-14_171656.png)
 *Order confirmation and summary.*
 
 
