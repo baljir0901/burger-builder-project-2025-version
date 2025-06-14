@@ -249,9 +249,12 @@ This project demonstrates:
 
 ## 🚀 **Live Demo**
 
-Open [http://localhost:3000] and (https://burger-builder-project-2025-v.netlify.app/) to view the app in development mode.
+🔗 [Live Demo on Netlify](https://burger-builder-project-2025-v.netlify.app/)  
+🔗 [Live Demo on Vercel](https://burger-builder-project-2025-version.vercel.app/)
 
-The page will reload when you make changes, and you'll see beautiful fast food magic happen! ✨
+💻 For local development, run: `http://localhost:3000`
+
+When you edit the code, the page will automatically reload, giving you an instant preview of your custom burger magic! 🍔✨
 
 ---
 
