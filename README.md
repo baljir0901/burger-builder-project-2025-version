@@ -8,6 +8,23 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-f7df1e?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ---
+## 🖼️ **Screenshots**
+
+Here are some actual screenshots of the Burger Builder 2025 in action:
+
+![Burger Builder UI](https://github.com/baljir0901/burger-builder-project-2025-version/blob/main/assets/Screenshot_2025-06-14_171508.png?raw=true)
+*Burger building screen with glassmorphism design.*
+
+![Build Controls](https://github.com/baljir0901/burger-builder-project-2025-version/blob/main/assets/Screenshot_2025-06-14_171523.png?raw=true)
+*Ingredient control panel for customizing your burger.*
+
+![Checkout Page](https://github.com/baljir0901/burger-builder-project-2025-version/blob/main/assets/Screenshot_2025-06-14_171618.png?raw=true)
+*Modern checkout flow with price summary.*
+
+![Order Confirmation](https://github.com/baljir0901/burger-builder-project-2025-version/blob/main/assets/Screenshot_2025-06-14_171656.png?raw=true)
+*Order confirmation and summary.*
+
+
 
 ## 🚀 **2025 Modern Features & Tech Stack**
 
