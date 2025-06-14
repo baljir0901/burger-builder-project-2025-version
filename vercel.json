@@ -4,7 +4,6 @@
   "framework": "create-react-app",
   "installCommand": "npm install --legacy-peer-deps",
   "devCommand": "npm start",
-  "functions": {},
   "routes": [
     {
       "src": "/static/(.*)",
